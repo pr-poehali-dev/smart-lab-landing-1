@@ -94,7 +94,7 @@ const Index = () => {
                 />
                 <div className="mt-6 text-center">
                   <p className="text-sm font-semibold text-primary">Создатель сервиса</p>
-                  <p className="text-lg font-bold text-foreground mt-1">Врач и отец маленького ребёнка</p>
+                  <p className="text-lg font-bold text-foreground mt-1">Врач и отец</p>
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@ const Index = () => {
                 Почему нам доверяют
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Сервис создан врачом, который сам столкнулся с необходимостью быстро понимать анализы своего маленького ребёнка.
+                Сервис создан врачом, который сам столкнулся с необходимостью быстро понимать анализы своего ребёнка.
               </p>
               <div className="space-y-4">
                 {[
@@ -431,7 +431,7 @@ const Index = () => {
       </footer>
 
       {/* Floating CTA Button */}
-      <div className="fixed bottom-1/3 right-8 z-50">
+      <div className="fixed bottom-[120px] right-8 z-50">
         <Button 
           onClick={handleCTAClick}
           size="lg"
