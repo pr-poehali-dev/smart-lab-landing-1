@@ -58,10 +58,10 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight text-foreground">
-                Расшифровка анализов <span className="text-primary">за 2 минуты</span>
+                Расшифровка анализов вашего ребёнка <span className="text-primary">за 2 минуты</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Загрузите фото анализа ребёнка в Telegram-бот и получите понятную расшифровку с рекомендациями от врачей-педиатров
+                Загрузите фото анализа ребёнка в Telegram-бот и получите понятную расшифровку с чётким планом действий от команды педиатров
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button 
@@ -94,7 +94,7 @@ const Index = () => {
                 />
                 <div className="mt-6 text-center">
                   <p className="text-sm font-semibold text-primary">Создатель сервиса</p>
-                  <p className="text-lg font-bold text-foreground mt-1">Врач-педиатр и отец</p>
+                  <p className="text-lg font-bold text-foreground mt-1">Врач и отец маленького ребёнка</p>
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@ const Index = () => {
                 Почему нам доверяют
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Сервис создан врачом-педиатром, который сам столкнулся с необходимостью быстро понимать анализы своего ребёнка.
+                Сервис создан врачом, который сам столкнулся с необходимостью быстро понимать анализы своего маленького ребёнка.
               </p>
               <div className="space-y-4">
                 {[
@@ -431,11 +431,11 @@ const Index = () => {
       </footer>
 
       {/* Floating CTA Button */}
-      <div className="fixed bottom-6 right-6 z-50">
+      <div className="fixed bottom-1/3 right-8 z-50">
         <Button 
           onClick={handleCTAClick}
           size="lg"
-          className="bg-gradient-to-r from-primary to-secondary text-white font-bold px-6 py-6 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-110 animate-pulse"
+          className="bg-gradient-to-r from-primary to-secondary text-white font-bold px-6 py-6 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105"
         >
           <Icon name="MessageCircle" className="mr-2" size={24} />
           Открыть бот
